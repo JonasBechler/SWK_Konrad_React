@@ -6,8 +6,9 @@ import './App.css'
 import Main from './SWK_React_Template/src/components/Main/Main';
 
 function App() {
-	const name = "Konrad";
-	const icon = require("./Bicycle.png");
+	const name = "Name";
+	//const icon = require("./Bicycle.png");
+	const icon = require("./Logo_Placeholder.png");
 	config.port = config.konrad.port
 	config.port_react = config.konrad.port_react
 
