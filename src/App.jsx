@@ -10,7 +10,7 @@ function App() {
 	const name = "Konrad";
 	const icon = require("./Bicycle.png");
 
-	const config = require( "../../config.json");
+	const config = require( "./config.json");
 
 	config.port = config.konrad.port
 	config.port_react = config.konrad.port_react
@@ -21,5 +21,6 @@ function App() {
 
 	);
 }
+
 
 export default App;
