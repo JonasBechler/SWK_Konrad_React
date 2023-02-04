@@ -4,7 +4,7 @@ import React from 'react'
 import './App.css'
 import './SWK_React_Template/src/styles/App.css'
 
-import Main from './SWK_React_Template/src/components/Main/Main';
+import Main from './SWK_React_Template/src/components_extern/Main/Main';
 
 function App() {
 	const name = "Konrad";
