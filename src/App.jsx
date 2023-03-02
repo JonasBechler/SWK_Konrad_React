@@ -9,6 +9,7 @@ import Main from './SWK_React_Template/src/components_extern/Main/Main';
 function App() {
 	const name = "Konrad";
 	const icon = require("./Bicycle.png");
+	const mainview = require("./Konrad_MainView.png");
 
 	const config = require( "./config.json");
 
@@ -17,7 +18,7 @@ function App() {
 
 	return (
 
-		<Main name={name} icon={icon} config={config}></Main>
+		<Main name={name} icon={icon} config={config} mainview={mainview}></Main>
 
 	);
 }
